@@ -1,0 +1,99 @@
+.header {
+    height: 77px;
+    background-color: #27273e;
+    padding-top: 13px;
+}
+
+.logo {
+    width: 99px;
+    height: 51px;
+    float: left;
+}
+
+.logo__link {
+    display: inline-block;
+}
+
+.contacts {
+    text-align: right;
+    float: right;
+    font-style: normal;
+}
+
+.contacts__phone {
+    font-size: 21px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.contacts__time {
+     position: relative;
+}
+
+.contacts__time-link {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #b12167;
+}
+
+.contacts__time:hover .schedule {
+    right: 0;
+    left: initial;
+    opacity: 1;
+}
+
+.contacts__time-link:hover {
+    color: #769dcd;
+    transition: .3s;
+}
+
+.schedule {
+    border-radius: 3px;
+    width: 160px;
+    height: 70px;
+    padding: 18px 9px;
+    background: #fff;
+    position: absolute;
+    text-align: left;
+    opacity: 0;
+    transition: opacity .5s;
+    z-index: 10;
+    left: -9999px;
+    top: 100%;
+    margin-top: 22px;
+    box-shadow: 0.5px 0 10px rgba(23, 59, 117, .55);
+}
+
+.schedule::before {
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -29px;
+    position: absolute;
+}
+
+.schedule::after {
+    content: "";
+    width: 17px;
+    height: 17px;
+    display: block;
+    background: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -2px;
+    top: -8px;
+    margin-right: 6px;
+}
+
+.schedule__time {
+    color: #ec1e79;
+    margin-bottom: 10px;
+    line-height: 0.5em;
+}
+
+.schedule__dinner-time {
+    font-weight: 300;
+}

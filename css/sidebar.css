@@ -43,7 +43,7 @@
     display: inline-block;
     margin-right: 15px;
     vertical-align: middle;
-    background: url("/img/sprites_icon.png") 0 0 no-repeat;
+    background: url("../img/sprites_icon.png") 0 0 no-repeat;
 }
 
 .nav__icon_triangle {

@@ -64,7 +64,7 @@
 	text-indent: 100%;
     white-space: nowrap;
 	overflow: hidden;
-	background: url("/img/social/social_sprites.png") no-repeat;
+	background: url("../img/social/social_sprites.png") no-repeat;
 }
 
 .social__link-vk {

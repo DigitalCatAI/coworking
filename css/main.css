@@ -1,5 +1,5 @@
-@import "/css/header.css";
-@import "/css/footer.css";
+@import "header.css";
+@import "footer.css";
 
 * {
     box-sizing: border-box;
@@ -64,10 +64,6 @@ ul {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 60px;
-}
-
-.content {
-    
 }
 
 .text__block {

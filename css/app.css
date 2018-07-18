@@ -1,10 +1,10 @@
-@import "/css/intro.css";
-@import "/css/header.css";
-@import "/css/footer.css";
-@import "/css/sidebar.css";
-@import "/css/prices.css";
-@import "/css/wrkadium.css";
-@import "/css/comments.css";
+@import "intro.css";
+@import "header.css";
+@import "footer.css";
+@import "sidebar.css";
+@import "prices.css";
+@import "wrkadium.css";
+@import "comments.css";
 
 * {
     box-sizing: border-box;
